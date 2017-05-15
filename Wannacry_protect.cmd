@@ -2,21 +2,21 @@
 @echo offAF_UNSPEC 
 color 1f 
 echo =============================
-echo À¤ÌÚROMÑÐ·¢ÍÅ¶Ó
+echo https://icloudportal.com ç ”å‘å›¢é˜Ÿ
 echo =============================
-title ¹Ø±Õ135,137,138,139,445 ¶Ë¿Ú
+title å…³é—­135,137,138,139,445 ç«¯å£
 echo. 
 echo. 
 echo. 
-echo ÕýÔÚ¹Ø±Õ135,137,138,139¶Ë¿Ú ÇëÉÔºò¡­ 
+echo æ­£åœ¨å…³é—­135,137,138,139ç«¯å£ è¯·ç¨å€™â€¦ 
 netsh advfirewall firewall add rule name = "Disable port 135 - TCP" dir = in action = block protocol = TCP localport = 135,137,138,139
 echo. 
 netsh advfirewall firewall add rule name = "Disable port 135 - UDP" dir = in action = block protocol = UDP localport = 135,137,138,139
 echo. 
-echo ÕýÔÚ¹Ø±Õ445¶Ë¿Ú ÇëÉÔºò¡­ 
+echo æ­£åœ¨å…³é—­445ç«¯å£ è¯·ç¨å€™â€¦ 
 netsh advfirewall firewall add rule name = "Disable port 445 - TCP" dir = in action = block protocol = TCP localport = 445
 echo. 
 netsh advfirewall firewall add rule name = "Disable port 445 - UDP" dir = in action = block protocol = UDP localport = 445
 echo.
-echo °´ÈÎÒâ¼üÍË³ö 
+echo æŒ‰ä»»æ„é”®é€€å‡º 
 pause>nul
